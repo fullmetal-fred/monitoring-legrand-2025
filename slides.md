@@ -1,10 +1,7 @@
 ---
 # Presentation settings
-titleTemplate: "%s - Intro to Monitoring"
+titleTemplate: "%s - Monitoring AV"
 info: |
-  Intro to Monitoring
-  Taught by Frederick Loucks in partnership with AVIXA.  
-
   Find me at:  
   - [LinkedIn](https://linkedin.com/u/fred-loucks)
   - [Github](https://github.com/fullmetal-fred)
@@ -67,7 +64,7 @@ title: Introduction
   - 2x SCN Top 50 integrators
   - 2x Fortune 500 enterprises
 - What do I get excited about?
-  - Books: high fantasy...Brando Sando
+  - Books: fantasy & sci-fi
   - Music: power & progressive [metal]{ .highlight }
   - Work: Automation, AV @ scale
 
@@ -131,6 +128,7 @@ Welcome
 - How do we design systems that are easier to monitor?
 - What should we consider when selecting a monitoring platform?
 - What are the steps to get started?
+- Where does AV/IT convergence fit in?
 
 </v-clicks>
 
@@ -206,11 +204,6 @@ time: 20
 layout: section
 ---
 
-# Break
-
-<Timer :minutes="10" :seconds="0" :autoStart=true />
-
-
 
 ---
 src: ./pages/monitoring-platforms.md
@@ -218,12 +211,15 @@ time: 45
 ---
 
 
+---
+src: ./pages/getting-started-blended.md
+time: 30
+---
 
 ---
-src: ./pages/getting-started-techmanagers.md
-time: 20
+src: ./pages/av-it-convergence.md
+time: 15
 ---
-
 
 ---
 
@@ -238,6 +234,7 @@ What did we learn?
 - How do we design systems that are easier to monitor?
 - What should we consider when selecting a monitoring platform?
 - What are the steps to get started?
+- Where does AV/IT convergence fit in?
 
 <!--
 - We've covered a lot of ground today.
