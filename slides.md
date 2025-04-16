@@ -43,7 +43,7 @@ class: flex flex-col justify-center text-center
 ---
 
 # Intro to Monitoring
-### For Technology Managers
+### For AV Professionals
 
 
 ---
