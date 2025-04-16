@@ -521,9 +521,9 @@ Getting started
 
 # Monitoring platform landscape
 
-Getting started - Choose a platform
+Getting started - Choose a platform - [Not an endorsement of any specific platform]{color=red}
 
-## [Not an endorsement of any specific platform]{color=red}
+
 
 <v-clicks>
 
