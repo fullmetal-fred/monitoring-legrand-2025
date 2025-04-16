@@ -1,0 +1,26 @@
+.qrcode_container {
+  .background-color {
+    @apply fill-none;
+  }
+  .dot-color {
+    @apply fill-orange-400;
+  }
+  .corners-square-color-0-0 {
+    @apply fill-orange-400;
+  }
+  .corners-dot-color-0-0 {
+    @apply fill-orange-400;
+  }
+  .corners-square-color-1-0 {
+    @apply fill-orange-400;
+  }
+  .corners-dot-color-1-0 {
+    @apply fill-orange-400;
+  }
+  .corners-square-color-0-1 {
+    @apply fill-orange-400;
+  }
+  .corners-dot-color-0-1 {
+    @apply fill-orange-400;
+  }
+}

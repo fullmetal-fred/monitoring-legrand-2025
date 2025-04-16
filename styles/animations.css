@@ -1,0 +1,17 @@
+.slidev-vclick-target {
+  transition: opacity 500ms ease;
+}
+
+.slidev-code-dishonored,
+.slidev-code-highlighted {
+  transition: opacity 1000ms ease;
+}
+
+.slidev-vclick-hidden.reveal {
+  @apply border-b-2 rounded border-orange-400;
+  opacity: 1 !important;
+  color: transparent;
+}
+.slidev-vclick-target.reveal:not(.slidev-vclick-hidden) {
+  @apply text-orange-400;
+}

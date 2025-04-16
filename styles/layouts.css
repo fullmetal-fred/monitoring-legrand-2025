@@ -1,0 +1,172 @@
+.slidev-layout {
+  /* @apply flex flex-col; */
+
+  h1 + p {
+    @apply -mt-4 opacity-50 pb-1;
+  }
+
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p,
+  h6 + p {
+    @apply text-gray-400 pb-1 pl-10;
+  }
+
+  h2 + ul,
+  h2 + ol,
+  h2 + table {
+    @apply mt-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+
+  span.highlight {
+    @apply text-orange-400;
+  }
+
+  /* ol,
+  ul,
+  ol.slidev-toc-list {
+    @apply min-h-fit h-100% grow shrink max-w-full flex flex-col flex-wrap justify-start;
+  } */
+
+  ul > li {
+    @apply list-disc;
+  }
+
+  ul > li,
+  ol > li:not(.footnote-item) {
+    @apply p-1 text-2xl pb-4;
+  }
+
+  ul > li > ul > li,
+  ol > li > ul > li {
+    @apply pl-1 p-none text-lg mt-2;
+    list-style-type: "-";
+  }
+
+  /* ul > li > p {
+    @apply list-disc pl-1 text-2xl mb-2;
+  } */
+
+  li::marker {
+    @apply text-orange-400;
+  }
+
+  h1 {
+    @apply -mt-6 text-4xl mb-6 -ml-[0.05em] pb-3 border-b-2 border-orange-400;
+  }
+
+  hr:not(.footnotes-sep) {
+    @apply my-10 border-0  border-t-2 border-orange-400;
+  }
+
+  hr.footnotes-sep {
+    @apply my-3 border-0 border-dotted border-t-1 border-gray-400;
+  }
+
+  /* h1:after {
+    transition: all ease-in-out 0.2s;
+    background: none repeat scroll 0 0 #ffffff;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+  }
+  h1[slide-nav-go-forward]:after {
+    width: 100%;
+    padding-right: 35px;
+  } */
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em];
+  }
+
+  h6:not(.opacity-100) {
+    @apply opacity-40;
+  }
+
+  p {
+    @apply text-xl;
+  }
+
+  &.cust-center-center {
+    @apply flex flex-col items-center justify-center;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20 border-b-0 mb-4;
+  }
+}
+
+.slidev-layout.fact {
+  @apply text-center grid h-full;
+  h1 {
+    @apply text-8xl font-700;
+  }
+  h1 + p {
+    @apply font-700 text-2xl;
+  }
+}
+.slidev-layout.statement {
+  @apply text-center grid h-full;
+
+  h1 {
+    @apply text-6xl font-700;
+  }
+}
+.slidev-layout.quote {
+  @apply grid h-full;
+
+  h1 + p {
+    @apply mt-2;
+  }
+}
+.slidev-layout.section {
+  h1 {
+    @apply text-6xl font-500 leading-20;
+  }
+  p:has(+ h1) {
+    @apply pb-4 op-50;
+  }
+}
+
+.slidev-layout.two-cols-header {
+  @apply !grid-rows-none grid-flow-row auto-rows-max gap-x-4;
+}
+
+.slidev-layout.center {
+  @apply text-center;
+}
+
+/* Enable auto-scrolling for all slides */
+/* .slidev-layout.default, */
+/* .slidev-layout.two-cols-header {
+  @apply h-full overflow-y-auto;
+} */

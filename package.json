@@ -1,0 +1,36 @@
+{
+  "name": "monitoring-for-integrators-slides",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --port 3030",
+    "start": "slidev --remote",
+    "export": "slidev export",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.2",
+    "@headlessui/vue": "^1.7.23",
+    "@slidev/cli": "^0.49.29",
+    "@slidev/theme-default": "latest",
+    "@slidev/types": "^0.49.29",
+    "playwright-chromium": "^1.49.1",
+    "primevue": "^3.53.1",
+    "styled-qr-code": "^1.0.0",
+    "unocss-preset-scrollbar": "^0.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.290",
+    "@unocss/eslint-config": "^0.60.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-markdown": "^5.1.0",
+    "miniflare": "^3.20241218.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "prettier-plugin-slidev": "^1.0.5",
+    "wrangler": "^3.99.0"
+  }
+}

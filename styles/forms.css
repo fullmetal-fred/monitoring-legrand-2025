@@ -1,0 +1,117 @@
+.modal {
+  @apply px-4 pt-4 rounded-xl;
+  @apply bg-gray-200 dark:bg-gray-800;
+  h2 {
+    @apply text-2xl;
+  }
+  p {
+    @apply text-base pb-4 text-gray-400 pl-1;
+  }
+}
+
+.my-scrollbar {
+  @apply scrollbar scrollbar-rounded scrollbar-w-8px dark:scrollbar-track-color-slate-500 scrollbar-track-color-gray-300 scrollbar-thumb-color-blue-600;
+}
+
+/* Style the button which opens modals */
+button.modal-control {
+  @apply flex items-center justify-center bg-blue-600 text-white;
+  @apply w-30 h-8 rounded-lg;
+  &.submitted {
+    @apply bg-gray-400 pointer-events-none;
+    @apply after:(content-["✅"] pl-0.5em );
+  }
+}
+
+.modal-backdrop {
+  @apply bg-black/80;
+}
+
+.formkit-actions {
+  @apply w-full;
+}
+
+.formkit-form {
+  @apply flex flex-col items-center h-auto w-full;
+
+  & button.formkit-input[type="submit"] {
+    @apply bg-blue-600 text-white my-8;
+    @apply h-10 rounded-lg flex items-center justify-center;
+    /* @apply before: :transition-all; */
+  }
+
+  &[data-loading="true"] button.formkit-input[type="submit"] {
+    @apply before:(content-[""] block animate-spin w-5 h-5 rounded-full mr-3 -ml-1.5 border-2 border-solid border-white border-r-transparent);
+  }
+
+  &.submitted button.formkit-input[type="submit"] {
+    @apply bg-gray-400 pointer-events-none;
+    @apply after:(content-["✅"] pl-0.5em );
+  }
+}
+
+/* catch formkit double divs and make them full width */
+
+div.double:has(> .formkit-outer) {
+  @apply w-full space-y-5;
+}
+
+.formkit-outer {
+  @apply mb-4 w-full h-auto px-4;
+
+  & .formkit-inner {
+    @apply py-0.5;
+  }
+
+  /* Style help labels */
+  & .formkit-label {
+    @apply text-xl w-max bg-none text-black dark:text-white;
+  }
+
+  /* Style help text */
+  & .formkit-help {
+    @apply text-md italic text-gray-500 dark:text-gray-400 w-auto h-auto;
+  }
+
+  /* Show warning messages in red bullets */
+  & .formkit-message {
+    @apply text-sm text-red-500 list-inside;
+    &::marker {
+      @apply text-red-600;
+    }
+  }
+
+  /* Make input fields pretty */
+  & .formkit-input {
+    @apply rounded-lg bg-gray-300 dark:(bg-gray-700) focus:outline-none pl-2 min-w-80 w-[calc(100%-2rem)] h-auto min-h-10;
+  }
+
+  /* Style inputs that are invalid / wrong with red borders*/
+  &[data-invalid="true"],
+  [data-error="true"] {
+    .formkit-input {
+      @apply border-1 border-red-500;
+    }
+  }
+
+  /* Style inputs that are correct with green borders */
+  &[data-complete="true"] .formkit-input {
+    @apply border-1 border-green-500;
+  }
+
+  /* Style inputs that are correct with a green checkbox emoji */
+  &[data-complete="true"] .formkit-inner {
+    @apply after:(content-["✅"] pl-0.5em );
+  }
+
+  /* Handle placeholder text coloring...special handling needed for select boxes */
+  &[data-empty="true"] {
+    ::placeholder {
+      @apply text-gray-400;
+    }
+
+    select.formkit-input {
+      @apply text-gray-400;
+    }
+  }
+}
