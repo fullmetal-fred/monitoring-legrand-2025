@@ -31,12 +31,12 @@ hideInToc: false
 -->
 
 ---
-layout: section
+layout: center
 ---
 
 <PresenterTimer :minutes="0" :seconds="30" />
 
-# Key Differences
+## Key Differences
 
 <!--
 - Before we can discuss convergence, we need to understand the traditional differences between these domains
@@ -118,13 +118,12 @@ Key Differences
 ## AV Approach
 <v-clicks>
 
-- Project-based implementation
-- Custom solutions for unique requirements
-- Manual configuration and maint.
-- On-site, hands-on troubleshooting
-- Specialized tools and interfaces
-- Limited remote capabilities
-- Performance felt by user
+- [Project-based]{.highlight} implementation
+- [Custom]{.highlight} solutions for unique requirements
+- [Manual]{.highlight} configuration and maint.
+- On-site, [hands-on]{.highlight} troubleshooting
+- Specialized / [vendor-specific]{.highlight} tools and protocols
+- Success measured by user [feelings]{.highlight}
 
 </v-clicks>
 
@@ -133,13 +132,12 @@ Key Differences
 ## IT Approach
 <v-clicks>
 
-- Service-based delivery
-- Standardized solutions at scale
-- Automated config and management
-- Remote monitoring and troubleshooting
-- Universal tools and protocols
-- Comprehensive remote capabilities
-- Performance measured by data
+- [Service-based]{.highlight} delivery
+- [Standardized]{.highlight} solutions at scale
+- [Automated]{.highlight} config and management
+- [Remote]{.highlight} monitoring and troubleshooting
+- [Universal]{.highlight} tools and protocols
+- Success measured by [KPIs]{.highlight}
 
 </v-clicks>
 
@@ -150,7 +148,6 @@ Key Differences
 - [click] Historically, AV systems required extensive manual configuration, often performed individually on each device
 - [click] When problems arise, AV technicians typically go on-site to diagnose and fix issues directly
 - [click] AV professionals rely on specialized tools specific to audio, video, or control systems
-- [click] Until recently, remote capabilities were limited, often requiring special hardware or custom programming
 - [click] Success in AV has traditionally been measured through user satisfaction and experience quality
 
 - [click] IT, conversely, operates on a service delivery model with ongoing support and development
@@ -158,19 +155,18 @@ Key Differences
 - [click] Configuration is increasingly automated through scripts, templates, and management tools
 - [click] IT has long embraced remote monitoring and troubleshooting as standard practice
 - [click] IT uses universal protocols and tools that work across different vendors and technologies
-- [click] Remote management is fundamental to IT operations, enabling centralized support
 - [click] IT performance is typically measured through defined metrics and service level agreements
 
 - These different approaches explain why bringing these worlds together requires not just technical integration but cultural adaptation
 -->
 
 ---
-layout: section
+layout: center
 ---
 
 <PresenterTimer :minutes="0" :seconds="30" />
 
-# The Evolution of Both Domains
+## Both AV & IT are [evolving]{.highlight}.
 
 <!--
 - While we've discussed traditional differences, both domains are rapidly evolving
@@ -193,13 +189,13 @@ Evolution
 ## AV Evolution
 <v-clicks>
 
-- Transition to AV-over-IP
-- Software-defined AV systems
-- Shift from hardware to services
-- API-driven integration / interop
-- Cloud-connected endpoints
+- Transition to [IP-based]{.highlight} AV systems
+- [Software]{.highlight}-defined AV systems
+- Shift from hardware to [services]{.highlight}
+- [API]{.highlight}-driven integration / interop
+- Cloud-connected devices / [IoT]{.highlight}
 - Data analytics for system optimization
-- Cybersecurity awareness
+- [Cybersecurity]{.highlight} awareness
 
 </v-clicks>
 
@@ -208,13 +204,13 @@ Evolution
 ## IT Evolution
 <v-clicks>
 
-- Increased focus on collaboration tools
+- Increased focus on [collaboration tools]{.highlight}
 - Support for real-time applications
-- Edge computing for local processing
-- User experience prioritization
+- [Edge]{.highlight} computing for local processing
+- [User experience]{.highlight} prioritization
 - Multi-media content management
-- Low-latency network optimization
-- IoT device integration
+- [Low-latency]{.highlight} network optimization
+- [IoT]{.highlight} device integration
 
 </v-clicks>
 
@@ -240,19 +236,13 @@ Evolution
 -->
 
 ---
-layout: section
+layout: center
 ---
 
 <PresenterTimer :minutes="0" :seconds="30" />
 
-# Monitoring & Management
-## The Blurred Line
+## The line between AV & IT technology is [blurring]{.highlight}.
 
-<!--
-- Monitoring and management represent the most significant area of convergence between AV and IT
-- This is where traditional boundaries are most rapidly dissolving
-- It's also where we find the greatest opportunity for mutual learning and improvement
--->
 
 ---
 layout: default
@@ -260,26 +250,27 @@ layout: default
 
 <PresenterTimer :minutes="2" :seconds="30" />
 
-# Unified Monitoring Platforms
-Monitoring & Management
+# Technology Convergence
+Blurred lines
 
 <v-clicks>
 
-- IP-based AV systems integrate with IT tools
-- Common dashboard visibility
+- IP-based AV systems [integrate]{.highlight} with IT tools
+- [Common]{.highlight} data collection & storage methods
 - Key metrics:
-    - Device & system status and uptime
-    - System utilization
+    - Device & system [health]{.highlight} and uptime
+    - System [utilization]{.highlight}
     - Underlying network performance
     - User experience metrics
+    - UCC platform health
 - Converged alerting systems
-- Single pane of glass for operations
+- Single pane of glass for [all of operations]{.highlight}
 
 </v-clicks>
 
 <!--
 - [click] As AV systems migrate to IP networks, they can increasingly integrate with standard IT monitoring tools
-- [click] This enables unified dashboards where both AV and IT metrics can be viewed together, providing comprehensive visibility
+- [click] This enables common data collection and storage methods, allowing AV data to be analyzed alongside IT metrics
 - [click] These platforms monitor crucial parameters across domains:
   - Device status and uptime tracking applies equally to servers and AV processors
   - Signal quality and latency are now measurable metrics for networked media
@@ -298,7 +289,7 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # What AV Can Learn From IT
-Monitoring & Management
+Blurred lines
 
 ::left::
 
@@ -364,7 +355,7 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # What IT Can Learn From AV
-Monitoring & Management
+Blurred lines
 
 ::left::
 
@@ -425,12 +416,18 @@ Monitoring & Management
 -->
 
 ---
+layout: center
+---
+
+## There are still [barriers]{.highlight} to convergence.
+
+---
 layout: two-cols-header
 ---
 
 <PresenterTimer :minutes="2" :seconds="30" />
 
-# Integration Challenges
+# Convergence Challenges
 
 ::left::
 
