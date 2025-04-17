@@ -10,7 +10,7 @@ hideInToc: false
 
 <PresenterTimer :minutes="1" :seconds="0" />
 
-# Agenda
+# Overview
 
 <v-clicks>
 
@@ -51,19 +51,20 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="30" />
 
 # Core Focus
+Key Differences
 
 ::left::
 
 ## AV
 <v-clicks>
 
-- Real-time audio and video quality
+- Real-time audio and video [quality]{.highlight}
 - Low-latency performance requirements
 - User experience prioritization
-- Hardware-centric solutions
+- [Hardware]{.highlight}-centric solutions
 - Signal integrity and distribution
-- Physical room considerations
-- Creative and experiential outcomes
+- Physical space considerations
+- Creative and [experiential]{.highlight} outcomes
 
 </v-clicks>
 
@@ -73,11 +74,11 @@ layout: two-cols-header
 <v-clicks>
 
 - Data integrity and protection
-- Network reliability and scalability
+- Network reliability and [scalability]{.highlight}
 - Security and compliance
 - Software-driven systems
 - Resource optimization
-- Standardization
+- [Standardization]{.highlight}
 - Process-oriented approach
 
 </v-clicks>
@@ -110,6 +111,7 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # Historical Approach to Problems
+Key Differences
 
 ::left::
 
@@ -122,7 +124,7 @@ layout: two-cols-header
 - On-site, hands-on troubleshooting
 - Specialized tools and interfaces
 - Limited remote capabilities
-- Performance measured by user satisfaction
+- Performance felt by user
 
 </v-clicks>
 
@@ -133,11 +135,11 @@ layout: two-cols-header
 
 - Service-based delivery
 - Standardized solutions at scale
-- Automated configuration and management
+- Automated config and management
 - Remote monitoring and troubleshooting
 - Universal tools and protocols
 - Comprehensive remote capabilities
-- Performance measured by metrics and SLAs
+- Performance measured by data
 
 </v-clicks>
 
@@ -184,6 +186,7 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # Transformational Trends
+Evolution
 
 ::left::
 
@@ -193,7 +196,7 @@ layout: two-cols-header
 - Transition to AV-over-IP
 - Software-defined AV systems
 - Shift from hardware to services
-- API-driven integration
+- API-driven integration / interop
 - Cloud-connected endpoints
 - Data analytics for system optimization
 - Cybersecurity awareness
@@ -258,16 +261,17 @@ layout: default
 <PresenterTimer :minutes="2" :seconds="30" />
 
 # Unified Monitoring Platforms
+Monitoring & Management
 
 <v-clicks>
 
 - IP-based AV systems integrate with IT tools
 - Common dashboard visibility
 - Key metrics:
-    - Device status and uptime
-    - Signal quality and latency
-    - Bandwidth utilization
-    - Resource allocation
+    - Device & system status and uptime
+    - System utilization
+    - Underlying network performance
+    - User experience metrics
 - Converged alerting systems
 - Single pane of glass for operations
 
@@ -294,6 +298,7 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # What AV Can Learn From IT
+Monitoring & Management
 
 ::left::
 
@@ -359,6 +364,7 @@ layout: two-cols-header
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # What IT Can Learn From AV
+Monitoring & Management
 
 ::left::
 
@@ -431,16 +437,16 @@ layout: two-cols-header
 <v-clicks>
 
 - **Cultural Differences**
+    - Career origins
     - Team structures and reporting lines
-    - Decision-making processes
-    - Priority frameworks
+    - Decision-making process & prioritization
     - Communication styles
     - Risk tolerance levels
 
 - **Technical Barriers**
     - Network segmentation requirements
     - Security policies and compliance
-    - Bandwidth competition
+    - Bandwidth & resource competition
     - IT change management vs. AV needs
 
 </v-clicks>
@@ -451,7 +457,7 @@ layout: two-cols-header
 
 - **Skill Gaps**
     - IT teams lack AV expertise
-    - AV teams lack networking knowledge
+    - AV teams lack IT expertise
     - Cross-training requirements
     - Knowledge transfer challenges
     - Certification differences
@@ -460,7 +466,6 @@ layout: two-cols-header
     - Proprietary vs. open standards
     - IT vendor policies vs. AV needs
     - Product lifecycle differences
-    - Support model conflicts
     - Procurement process misalignment
 
 </v-clicks>
@@ -515,7 +520,7 @@ layout: default
 - Unified standards
 - Common workflows
 - Joint planning
-- Integrated monitoring
+- Integrated monitoring & management
 
 </v-clicks>
 
@@ -540,10 +545,10 @@ layout: default
 
 ## Future Focus
 - Continuous education
-- Adaptive governance
 - Outcome-oriented design
 - User-centric metrics
 - Balanced approaches
+- Better together
 
 </v-clicks>
 

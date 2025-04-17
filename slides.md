@@ -133,76 +133,30 @@ Welcome
 </v-clicks>
 
 <!--
-- [click] [click] [click] [click] [click]
+- [click] [click] [click] [click] [click] [click]
 - And we'll try to leave ~20 mins for Q&A at the end
 - But let's start with a few questions for the room...
 -->
 
----
-layout: default
----
 
-<PresenterTimer :minutes="2" :seconds="0"/>
-
-# Poll
-
-Welcome
-
-<p></p>
-
-<v-clicks>
-
-- You are currently monitoring AV systems
-- You have full-time staff dedicated to monitoring & remote support
-- You are monitoring with a "single pane of glass" solution
-- You are measuring system health against an SLA
-- Monitoring is a high priority for your organization
-- You have budget allocated for implementing or expanding monitoring capabilities this year
-- You are satisfied with your current monitoring practice
-
-</v-clicks>
-
-<!--
-- **INTERACTIVE**: Cameras on for this
-- [click] [click] [click] [click] [click] [click] [click]
-- If that exercise made you anxious or overwhelmed, you're not alone. Most AV pros I talk to about monitoring don't really even know where to start. 
-- You're in good company...we're all in this together [click]
--->
-
----
-layout: center
-title: In this together
----
-
-<img src="/in-this-together.gif" width="700" >
-
-<PresenterTimer :minutes="0" :seconds="30"/>
-
-<!--
-- So let's take a deep breath, and dive in to our first topic.
-- Let's start by answering the question: What is monitoring? [click]
--->
 
 ---
 src: ./pages/what-is-monitoring.md
-time: 20
+time: 17
 ---
 
 
 ---
 src: ./pages/monitoring-av-is-hard.md
-time: 20
+time: 17
 ---
 
 
 ---
 src: ./pages/observable-systems.md
-time: 20
+time: 32
 ---
 
----
-layout: section
----
 
 
 ---
@@ -212,13 +166,13 @@ time: 45
 
 
 ---
-src: ./pages/getting-started-blended.md
-time: 30
+src: ./pages/getting-started-manufacturers.md
+time: 26
 ---
 
 ---
 src: ./pages/av-it-convergence.md
-time: 15
+time: 25
 ---
 
 ---
@@ -244,31 +198,7 @@ What did we learn?
 - Now before I open up the floor for questions, I have one more thing [click]
 -->
 
----
 
-<PresenterTimer :minutes="1" :seconds="0" />
-
-# One more thing
-
-Before we wrap up...
-
-<v-clicks>
-
-- If this all seems like a lot, that's because it is
-- Implementing monitoring is a big project, even bigger as an AV pro
-- You don't need to do it alone
-  - You have your peers in this class and beyond
-  - And you have myself and AVIXA to help you along the way
-- If you want to go deeper
-  - Take Applied Monitoring at Infocomm this year (3-day course, 24 RUs, advanced)
-  - Reach out to me directly for consulting or training
-  - Or just connect with me on LinkedIn to stay in touch
-
-</v-clicks>
-
-<!--
-- Lets get you on the path to success
--->
 
 ---
 layout: center
@@ -292,7 +222,7 @@ layout: center
 </div>
 
 <div>
-<QRCode height=300 width=300 value="https://monitoring-101.pages.dev/slides.pdf"/>
+<QRCode height=300 width=300 value="https://monitoring-legrand-2025.pages.dev/slides.pdf"/>
 
 <a href="/slides.pdf">Presentation slides</a>
 

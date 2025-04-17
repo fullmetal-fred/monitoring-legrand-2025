@@ -91,10 +91,10 @@ Designing observable systems - Six-Factor Device
 <v-clicks>
 
 - Leverages standard technologies
-    - API: HTTP, REST/RPC, JSON, GraphQL, etc.
+    - API: HTTP, REST/RPC, JSON, GraphQL, MQTT, etc.
     - CLI: SSH
     - Configuration: JSON, YAML
-    - Monitoring: SNMP, Syslog, HTTP, WebSockets etc.
+    - Monitoring: SNMP, Syslog, HTTP, WebSockets, MQTT etc.
 - Avoids proprietary & bespoke solutions
 - Widely supported by standard programming languages and monitoring / management tools
 
@@ -117,7 +117,7 @@ Designing observable systems - Six-Factor Device
 - Reset admin password on first boot
 - Allow disabling of insecure or unused services
     - Web interface, console, etc.
-- Regularly updated firmware
+- Regularly updated firmware, managed via API
 
 </v-clicks>
 

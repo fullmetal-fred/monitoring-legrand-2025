@@ -71,7 +71,7 @@ Monitoring AV is hard
     - Fetch locally & push
 - Firmware-based hardware appliances can't run agents
 - Can only monitor what the device provides
-    - Poll via interface
+    - Sometimes push, usually poll
 - Increases complexity and integration requirements
     - A new integration per device model / API
     - Sheer volume of unique AV products
@@ -168,7 +168,7 @@ Monitoring AV is hard
 
 - Many manufacturers want to sell you their own management tools
 - Providing open monitoring APIs would compete with that
-- Not incentivized to make it easier for you to monitor your systems
+- Often not incentivized to make it easier for you to monitor your systems if it means you won't buy their tools
 
 </v-clicks>
 

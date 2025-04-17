@@ -179,26 +179,15 @@ title: This is fine
 <!--
 - This is what the typical day in the life of an AV operator tends to look like
 - This sucks. It's not fun. It's not sustainable. It's not scalable. It's not good for your health or your career. 
-- My #1 reason to help you implement monitoring is to turn this, into this [click]
--->
-
----
-layout: center
-title: Sleeping
----
-
-<img src="/puppy-sleep.gif" width="700" >
-
-<PresenterTimer :minutes="0" :seconds="30"/>
-
-<!--
-- Ultimately The biggest reason why YOU should care about this is because it makes your life easier
+- My #1 reason to help you implement monitoring is to avoid this.
+- YOU should care about this is because it makes your life easier
 - It's the difference between a good night's sleep and a 3am wake-up call
 - It's the difference between a calm day at work and a fire drill
 - Sometimes, it's the difference between keeping your job, and losing it
 - Now, clearly there are dozens of really good reasons to monitor, so let's take that as a given. 
 - Perhaps "why should we" isn't the right question [click]
 -->
+
 
 ---
 layout: center

@@ -45,9 +45,9 @@ Getting started
 - Operations team 
 - Engineering team (Integration/Design/Manufacturing)
 - IT partners
-- Product management _[manufacturer specific]_
-- Sales & marketing _[integrator & manufacturer specific]_
-- Facilities management _[tech manager specific]_
+- Product management _\[manufacturer specific\]_
+- Sales & marketing _\[integrator & manufacturer specific\]_
+- Facilities management _\[tech manager specific\]_
 - End users/Customers
 - Stakeholders
 
@@ -81,13 +81,13 @@ Getting started - Assemble the team
 <v-clicks>
 
 - **System administration**
-  - User management, authentication, servers, databases, backups, updates, cloud services
+  - User management, integration, infra, ops, SaaS
 - **Network engineering**
   - Routing, firewalls, security, VPNs, port management
 - **Security expertise**
   - Encryption, authentication, compliance, vulnerability assessment
-- **AV engineering**
-  - Device APIs, control systems, signal flow, AV-over-IP, DSP, video conferencing
+- **Software development & scripting**
+  - Programming languages, RESTful APIs, automation, extraction, transformation
 
 </v-clicks>
 
@@ -95,13 +95,12 @@ Getting started - Assemble the team
 
 <v-clicks>
 
-- **Software development & scripting**
-  - Programming languages, RESTful APIs, automation, data handling
+
 - **Data analysis**
   - Visualization, insights generation, dashboard creation, reporting
 - **Project/product management**
   - Planning, communication, resource allocation, risk management
-- **Business/service development** _[integrator/manufacturer]_
+- **Business/service development***
   - Pricing models, value proposition, product roadmapping, market analysis
 
 </v-clicks>
@@ -133,9 +132,9 @@ Getting started - Assemble the team
 - Consider [hiring]{.highlight} dedicated talent for specialized monitoring roles
 - Leverage [partnerships]{.highlight} with consulting firms or specialized service providers
 - Invest in [upskilling]{.highlight} existing team members through training programs
-- For manufacturers: Ensure [product development]{.highlight} teams understand monitoring architecture principles
-- For integrators: Determine if service capabilities exist in-house or require [partnerships]{.highlight}
-- For tech managers: Evaluate if [IT/operations]{.highlight} teams can support additional monitoring systems
+- Ensure [product & engineering]{.highlight} teams understand monitoring architecture principles*
+- Determine if service capabilities exist in-house or require [partnerships]{.highlight}*
+- Evaluate if [IT/operations]{.highlight} teams can support additional monitoring systems*
 
 </v-clicks>
 
@@ -213,12 +212,16 @@ Getting started
 -->
 
 ---
+layout: two-cols-header
+---
 
 <PresenterTimer :minutes="3" :seconds="0" />
 
 # Define your approach
 
 Getting started
+
+::left::
 
 <v-clicks>
 
@@ -234,6 +237,12 @@ Getting started
   - Map end-to-end customer journey
   - Create pricing model and sales strategy
   - Choose between managed vs support services
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
 
 - **For tech managers:**
   - Determine monitoring scope and priorities
